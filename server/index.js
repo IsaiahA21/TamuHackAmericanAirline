@@ -29,13 +29,13 @@ var option2 = {
     method: 'Get',
 }
 
-request(option2, function(err, res, body) {
+request(options, function(err, res, body) {
    let json = JSON.parse(body);
   // console.log("The length is "+json.length);
   // console.log(json);
 
    for (var i=0; i <json.length; i++) {
-   //console.log(json[i].origin.city);
+   console.log(json[i].origin.city);
    }
 });
 
