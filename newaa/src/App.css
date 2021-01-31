@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.particles{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  background-image: url(./background.png);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+ 
+.App:hover{
+  background-color: 'rgba(52, 52, 52, 0.8)'
+}
+
+
+.h1{
+  color: black;
+  text-align: center;
+}
+table {
+  margin: auto;
+  margin-top: 40px;
+}
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
