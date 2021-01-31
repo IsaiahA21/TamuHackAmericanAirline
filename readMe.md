@@ -15,3 +15,4 @@ note: the departure and destination city users abbreviations of airport.
 new york: JFK
 dallas: DFW
 Los Angeles: LAX
+chicago: ORD
