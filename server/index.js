@@ -18,13 +18,14 @@ const options = {
     method: 'Get',
 };
 
-var origin ='DFW';
-var destination = 'JFK';
+var origin ='';
+var destination = '';
+var date ='';
 if (origin == destination) {
     console.log("Origin and desntination are the same")
 }
 var option2 = {
-    url: 'http://localhost:3030/flights?date=2021-01-01&origin='+origin + '&destination=' +destination,
+    url: 'http://localhost:3030/flights?date= '+ date +'&origin='+origin + '&destination=' +destination,
     method: 'Get',
 }
 
